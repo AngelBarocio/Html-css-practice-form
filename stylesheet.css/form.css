@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: #3C4048;
+}
+
+#header-back {
+    background-color: #00ABB3;
+    display: inline-block;
+    width: 55%;
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+}
+
+#header-text { 
+    font-size: 7rem;
+display: inline-block;
+}
+
+
+#subheader {
+    width: 90%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+} 
+
+#form-body {
+    background-color: #B2B2B2;
+    display: inline-block;
+    border-radius: 5%;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+
+#submit {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #00ABB3;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 5%;
+    position: relative;
+    left: 300px;
+   
+}
+
+
+
+.final-t {
+    height: 100px;
+    width: 80%;  
+}

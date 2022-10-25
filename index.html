@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="stylesheet.css/form.css">
+</head>
+<body>
+        <div id="header-back">
+        <h1 id="header-text">Good Vibes Form</h1>
+        </div>
+        <br>
+        <div id="form-body">
+        <h2 id="subheader">Tell us something positive that happened to you today!</h2>
+        <h3>Name</h3>
+        <label for="name-box"></label>
+        <input type="text"id="name-box">
+        <h3>Email</h3>
+        <label for="email-box"></label>
+        <input type="text"id="Email-box">
+        <h3>On a scale of 1-10, how good was it?</h3>
+        <input type="range" min="1" max="10" value="1-10">
+        
+        <h3>Where did it happen?</h3>
+        <select name="where-hap">
+            <option value="Home">At Home</option>
+            <option value="On-commute">On My Commute</option>
+            <option value="work">At Work</option>
+            <option value="street">On The Street</option>
+            <option value="Other">Other</option>
+        </select>
+        <h3>At what day of time did it happen?</h3>
+        
+            <div>
+                <input type="radio" name="time" id="morning">
+                <label for="morning">Morning</label>
+            </div>
+                <input type="radio" name="time" id="afternoon">
+                <label for="afternoon">Afternoon</label>
+            <div>
+        
+                <input type="radio" name="time" id="evening">
+                <label for="evening">Evening</label>
+            </div>
+        <h3>What emotions did you experience?</h3>
+        <div>
+            <input type="checkbox" name="excited" id="excited">
+            <label for="excited">Excited</label>
+        </div>
+        <div>
+            <input type="checkbox" name="humbled" id="humbled">
+            <label for="humbled">Humbled</label>
+        </div>
+        <div>
+            <input type="checkbox" name="elated" id="elated">
+            <label for="elated">Elated</label>
+        </div>
+        <div>
+            <input type="checkbox" name="loved" id="loved">
+            <label for="loved">Loved</label>
+        </div>
+        <div>
+            <input type="checkbox" name="enthusiastic" id="enth">
+            <label for="enth">Enthusiastic</label>
+        </div>
+        <h3>Please describe your positive experience.</h3>
+        <input class="final-t" type="text">
+     
+        <div>
+        <input type="button" value="Submit" id="submit">
+       </div>
+</div>
+     
+</body>
+</html>
